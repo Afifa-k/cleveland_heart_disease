@@ -1,9 +1,7 @@
-## cleveland_heart_disease
-- This is a project based on the research paper "Intelligent Heart Disease Prediction System Using Data Mining Techniques "
-
-## Heart Disease Prediction
-
-## goal of the project
+## cleveland_heart_disease_prediction
+- Machine learning based heart disease prediction using the Cleveland dataset
+  
+## Goal Of The Project
 - apply data mining techniques
 - compare models
 
