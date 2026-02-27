@@ -15,7 +15,14 @@
   4. Data modelling: applying various techniques to get optimal values
   5. Data evaluation: evaluates the model to ensure that it achieves the business objectives. 
   6. Deployment phase: specifies the tasks that are needed to use the models.
-     
-## read next
 
-- Data Scource 
+# 27-02-2026
+## Data Scource 
+- 909 records, 15 attributes
+- training and testing data was split equally 455 and 454 respectively.
+- all the attributes are converted into categorical data.
+- there will be 3 models
+- Predictable attribute - "Diagnosis" 0 - no disease, 1 - has disease
+-  It is assumed that problems such as missing data, inconsistent data, and duplicate data have all been resolved. 
+## read next
+Mining Models
