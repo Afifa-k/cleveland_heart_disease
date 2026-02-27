@@ -34,9 +34,9 @@
 - df["Age_category"] = pd.cut(df["Age"],
                               bins = [0,35,55,100],
                               labels = [1,2,3])
--after this you can drop original numerical columns if the model only needs categorical data.
+- after this you can drop original numerical columns if the model only needs categorical data.
   df = df.drop(["Age",...,], axis = 1) #axis = 1 for cols; 0 for rows
--summary: since we want the data in categorical format, all the numeric values were converted into categories/labels 
+- summary: since we want the data in categorical format, all the numeric values were converted into categories/labels 
 although this is different from label encoding as label encoding is just naming and discretization makes the model understand categories like age less than 35 is young.
 
 
