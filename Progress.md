@@ -23,6 +23,22 @@
 - all the attributes are converted into categorical data.
 - there will be 3 models
 - Predictable attribute - "Diagnosis" 0 - no disease, 1 - has disease
--  It is assumed that problems such as missing data, inconsistent data, and duplicate data have all been resolved. 
+-  It is assumed that problems such as missing data, inconsistent data, and duplicate data have all been resolved.
+## categorical data ->feature engineerinng 
+- Descritization/ binning
+- ex. age
+- if age<35 -> young
+- else if age >35 & age<55 -> middle-aged
+- else -> old
+- Now, convert these categories ["young","middle-aged","old"] to labels [1,2,3] respectively.
+- df["Age_category"] = pd.cut(df["Age"],
+                              bins = [0,35,55,100],
+                              labels = [1,2,3])
+-after this you can drop original numerical columns if the model only needs categorical data.
+  df = df.drop(["Age",...,], axis = 1) #axis = 1 for cols; 0 for rows
+-summary: since we want the data in categorical format, all the numeric values were converted into categories/labels 
+although this is different from label encoding as label encoding is just naming and discretization makes the model understand categories like age less than 35 is young.
+
+
 ## read next
 Mining Models
