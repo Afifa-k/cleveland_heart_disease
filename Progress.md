@@ -49,6 +49,8 @@ This section explains that the mining models were built and managed using the DM
 Lift Chart and Classification Matrix.
 The purpose was to determine which model gave the highest percentage of correct predictions for diagnosing patients with a heart disease. 
 
-
+#03-03-2026
+Lift Chart- The model, predictable column to chart against, and the state of the column to predict patients 
+with heart disease (predict value = 1) were also selected.
 ## read next
 Validating model effectiveness
