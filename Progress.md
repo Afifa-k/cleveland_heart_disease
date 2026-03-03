@@ -44,12 +44,12 @@ although this is different from label encoding as label encoding is just naming 
 This section explains that the mining models were built and managed using the DMX query language for training, prediction, and accessing model details. Default settings were used, except for tuning Minimum Support (1) in Decision Tree and Minimum Dependency Probability (0.005) in Naïve Bayes. The models were tested on separate test data and evaluated using accuracy, Lift Chart, and Classification Matrix before deployment.
 
 
-#02-03-2026
+# 02-03-2026
 ## Validating model effectiveness
 Lift Chart and Classification Matrix.
 The purpose was to determine which model gave the highest percentage of correct predictions for diagnosing patients with a heart disease. 
 
-#03-03-2026
+# 03-03-2026
 Lift Chart- The model, predictable column to chart against, and the state of the column to predict patients 
 with heart disease (predict value = 1) were also selected.
 ## read next
