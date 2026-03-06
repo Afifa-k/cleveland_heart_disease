@@ -52,5 +52,10 @@ The purpose was to determine which model gave the highest percentage of correct 
 # 03-03-2026
 Lift Chart- The model, predictable column to chart against, and the state of the column to predict patients 
 with heart disease (predict value = 1) were also selected.
-## read next
-Validating model effectiveness
+
+# 06-03-2026
+## Dataset Exploration
+- downloaded processed Cleveland dataset
+- loaded dataset using pandas
+- assigned column names
+- inspected dataset structure and missing values
