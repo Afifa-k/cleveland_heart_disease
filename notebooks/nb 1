@@ -1,1 +1,5 @@
+##01_data_understanding
+import pandas as pd
 
+df = pd.read_csv("../data/processed.cleveland.csv", header=None, na_values="?")
+df.head()
