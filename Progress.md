@@ -59,3 +59,14 @@ with heart disease (predict value = 1) were also selected.
 - loaded dataset using pandas
 - assigned column names
 - inspected dataset structure and missing values
+
+# 09-03-2026
+01_data_understanding.ipynb
+
+1. Load dataset
+2. Assign column names
+3. Dataset shape
+4. Dataset structure
+5. Summary statistics
+6. Missing value check
+7. Target distribution
