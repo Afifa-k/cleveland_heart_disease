@@ -61,8 +61,7 @@ with heart disease (predict value = 1) were also selected.
 - inspected dataset structure and missing values
 
 # 09-03-2026
-01_data_understanding.ipynb
-
+## 01_data_understanding
 1. Load dataset
 2. Assign column names
 3. Dataset shape
