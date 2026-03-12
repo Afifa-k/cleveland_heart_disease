@@ -9,4 +9,4 @@
 - Cleveland Heart Disease database
 
 ## Current Status 
-- reading research paper and preparing workflow
+-data pre-processing 
